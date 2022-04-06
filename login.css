@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #36A0E8;
+    font-size: 15px;
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    padding-top: 150px;
+}
+
+.main-text div {
+    padding: 10px;
+}
+
+.texts h3{
+    color: rgb(10, 4, 32);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.texts p{
+    color: #B29D9B;
+}
+
+#country {
+    width: 270px;
+    margin-top: 30px;
+    
+}
+
+select{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    color:black ;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid #134a5d;
+}
+
+#disinput {
+    width: 50px;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    color:black ;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid #134a5d;
+}
+
+#phonenumber {
+    width: 218px;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    color:black ;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid #134a5d;
+}
+
+.login-btn button{
+    margin-top: 30px;
+    width: 275px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #36A0E8;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.login-btn button:hover{
+    cursor: pointer;
+    background-color: #3187c0;
+}
+
+.login-btn button:active{
+    cursor: pointer;
+    background-color:  #36A0E8;
+}
+
+.qrcodediv a{
+    text-align: center;
+    color: #3e88c0;
+    text-decoration: none;
+}

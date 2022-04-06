@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    
+    <title>Telegram-login</title>
+</head>
+<body>
+<div class="container">
+    <nav class="nav" id="nav">
+        <i class="fa-solid fa-arrow-left"></i>
+        <a href="">SETTINGS</a>
+    </nav>
+    <div class="login">
+        <div class="main-text">
+            <div class="texts">
+                <h3>Your phone number</h3>
+                <p>Choose your country phone code</p>
+            </div>
+                    <select name="" id="country">
+                        <option value="+998">Uzbeksitan</option>
+                        <option value="+1">USA</option>
+                        <option value="+8">Korea</option>
+                        <option value="+7">Russia</option>
+                        <option value="+996">Kirghistan </option>
+                        <option value="+193">Afghanistan</option>
+                    </select>
+                <div class="inputs" >
+                    <input id="disinput" value="+998" class="bir" type="text" disabled>
+                    <input class="ikki" id="phonenumber" type="text" placeholder="-- --- -- --">
+                </div>
+                <div class="login-btn">
+                    <button onclick="loginBtn()">Continue</button>
+                </div>
+                <div class="qrcodediv">
+                    <a href="#">Enter fast with QR-code</a>
+                </div>
+        </div>
+        <div class="main-text">
+            <div class="texts">
+                <h3>+998975654554</h3>
+                <p>Your activation code was sent to your <br> phone number</p>
+            </div>
+            <div class="inputs1" style="margin-top: 20px;">
+                <div>
+                    <label style="color: rgb(180, 180, 255);" for="">Code</label>
+                </div>
+                <input id="codecode" style="margin-top: 15px;" class="ikki1" type="text">
+            </div>
+                <div class="login-btn">
+                    <button onclick="loginBtn()">Continue</button>
+                </div>
+        </div>
+        
+    </div>
+</div>
+</body>
+<script src="/main.js"></script>
+</html>
